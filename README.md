@@ -28,18 +28,18 @@ O projeto está dividido em **duas partes principais**:
 ## 🚀 Como Executar o Projeto
 
 ### 1️⃣ **Clone o repositório**
-bash
+```bash
 git clone https://github.com/lucasodl95/MLeInferenciaCausal
 cd seu-repositorio
-
+```
 
 ### 2️⃣ **Crie um ambiente virtual e instale as dependências**
-bash
+```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 pip install -r requirements.txt
-
+```
 
 ### 3️⃣ **Execute o notebook**
 Abra e rode os notebooks referentes às tarefas **1 (Predição) e 2 (Inferência Causal)**.
@@ -48,13 +48,13 @@ Abra e rode os notebooks referentes às tarefas **1 (Predição) e 2 (Inferênci
 
 ## 📦 Dependências
 As bibliotecas necessárias estão listadas no **requirements.txt**. Principais pacotes:
-- pandas
-- numpy
-- seaborn
-- scikit-learn
-- statsmodels
-- matplotlib
-- tqdm
+- `pandas`
+- `numpy`
+- `seaborn`
+- `scikit-learn`
+- `statsmodels`
+- `matplotlib`
+- `tqdm`
 
 ---
 
@@ -62,3 +62,5 @@ As bibliotecas necessárias estão listadas no **requirements.txt**. Principais 
 - **Modelo de Machine Learning**: Acurácia de **88,4%** na predição de pagamento.
 - **Inferência Causal**: Nenhuma cobrança teve efeito positivo significativo.
 - **Recomendação**: Teste A/B para otimizar a estratégia de cobrança.
+
+
